@@ -1,5 +1,5 @@
 ---
-title: Ashish sah
+title: Madhuri Awachar
 image: files/ashish.jpg
 about:
   template: trestles
