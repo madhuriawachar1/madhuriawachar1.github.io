@@ -1,5 +1,5 @@
 ---
-title: Madhuri Awachar
+title: "Madhuri Awachar"
 image: files/MadhuriAwachar.jpg
 about:
   template: trestles
