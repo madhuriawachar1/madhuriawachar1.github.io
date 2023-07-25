@@ -1,5 +1,5 @@
 ---
-title: "GAllary"
+title: "Gallary"
 ---
 ![IITGN Green Campus, Lal minar view ](iitgn.jpg)  
 
