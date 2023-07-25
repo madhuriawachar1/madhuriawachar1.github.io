@@ -3,7 +3,7 @@ project:
   output-dir: docs
 
 website:
-  title: "Madhuri Awachar"
+  title: Madhuri Awachar
   navbar:
     right:
       - href: index.qmd
