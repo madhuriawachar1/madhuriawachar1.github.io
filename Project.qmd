@@ -5,7 +5,7 @@ format: html
 
 1. Maintenance Portal (Prof. Mayank Singh, IITGn)-[Github](https://github.com/madhuriawachar1/IITGN_Maintenance_portal-main)
 
-    - Designed and constructed a robust and user-friendly Maintenance Portal using Flask, a popular Python web framework 
+    - Designed and constructed a robust and user-friendly Maintenance Portal using Flask, a popular Python web framework
 
     - Took charge of both frontend and backend responsibilities, ensuring seamless integration and optimal system functionality by closely collaborating with the frontend team during the supervision of the entire backend development for the project 
 
