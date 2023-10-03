@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Madhuri Awachar - Project</title>
+<title>Madhuri Awachar - Blogs</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -30,6 +30,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
+<script src="site_libs/quarto-listing/list.min.js"></script>
+<script src="site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -61,11 +63,42 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<script>
 
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-listing .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-categories"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
+
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
 </head>
 
-<body class="nav-fixed fullcontent">
+<body class="nav-fixed">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -91,7 +124,7 @@ ul.task-list li input[type="checkbox"] {
  <span class="menu-text">About</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./Project.html" rel="" target="" aria-current="page">
+    <a class="nav-link" href="./Project.html" rel="" target="">
  <span class="menu-text">Project</span></a>
   </li>  
   <li class="nav-item">
@@ -115,16 +148,18 @@ ul.task-list li input[type="checkbox"] {
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(0)</span></div></div></div>
 <!-- main -->
-<main class="content" id="quarto-document-content">
+<main class="content column-page-left" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Project</h1>
+<h1 class="title">Blogs</h1>
 </div>
 
 
@@ -139,39 +174,18 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<ol type="1">
-<li><p>Maintenance Portal (Prof.&nbsp;Mayank Singh, IITGn)-Github</p>
-<ul>
-<li><p>Designed and constructed a robust and user-friendly Maintenance Portal using Flask, a popular Python web framework</p></li>
-<li><p>Took charge of both frontend and backend responsibilities, ensuring seamless integration and optimal system functionality by closely collaborating with the frontend team during the supervision of the entire backend development for the project</p></li>
-<li><p>Identified existing limitations, executed essential enhancements to boost performance and user experience</p></li>
-<li><p>Employed MySQL as the database management system, ensuring efficient data storage and retrieval</p></li>
-</ul></li>
-<li><p>Implementation of Machine Learning algorithms from scratch (Prof.&nbsp;Nipun Batra, IITGn)</p>
-<ul>
-<li><p>Devised a recursive algorithm for decision trees from scratch, used entropy and Gini Index as splitting criteria - Github</p></li>
-<li><p>Leveraged Bagging and Boosting algorithms to enhance Random Forest classifier and regressor-Github</p></li>
-<li><p>Optimized Linear Regression using Gradient Descent, Singular Value Decomposition, and mathematical formulae-Github</p></li>
-<li><p>Established a backend movie recommendation system utilizing crowd-sourced data with K Nearest Neighbours algorithm</p></li>
-<li><p>Constructed an application using streamlit to showcase how bagging reduces variance for a model for regression/classification-Link</p></li>
-</ul></li>
-<li><p>Coresets-based optimization of deep learning models (prof. Anirban Dasgupta, IITGN)</p>
-<ul>
-<li><p>Created coresets using distinct methods and compared their performance(cost) by various models like k-means</p></li>
-<li><p>Implemented private K-means to develop private coresets that enables differentially private clustering on real data</p></li>
-</ul></li>
-<li><p>NGO Connect an Android project using Java (Prof.&nbsp;B.P.Vasgi, SCOE, Pune)</p>
-<ul>
-<li><p>Developed Android application intended to use as interface between NGOs, Hostels/restaurants and people who want to serve for NGO. It included services like serve on weekend, food for nearby</p></li>
-<li><p>Applied various software development methodologies, including agile, to successfully manage and deliver the project</p></li>
-<li><p>Incorporated essential Firebase services, including Firebase Cloud Messaging, Firebase Authentication, Real-time Database, Firebase Storage, and Firebase Hosting, to enhance the NGO Connect Android app’s functionality and user experience</p></li>
-<li><p>Leveraged Firebase’s push notification technology to enhance user engagement and communication in Android app development</p></li>
-</ul></li>
-</ol>
 
 
 
-</main> <!-- /main -->
+
+<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
+<div class="list quarto-listing-default">
+
+</div>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {

@@ -2,13 +2,42 @@
 title: "Project"
 format: html
 ---
-1.  M.tech 2021  
-    Topic: Prediction model for Parkinson's Disease  
-    Advisor: Dr. saiyed umer Assistant professor,Dept. of CSE,
-     Aliah University, Kolkata 700156.
 
-2.  B.Tech2019  
-    Topic: Design of Home Automation using IoT  
-    Advisor: Dr. Zeenat Rehena, Assistant professor,Dept.
-    of CSE, Aliah University, Kolkata 700156.
+1. Maintenance Portal (Prof. Mayank Singh, IITGn)-Github 
+
+    - Designed and constructed a robust and user-friendly Maintenance Portal using Flask, a popular Python web framework 
+
+    - Took charge of both frontend and backend responsibilities, ensuring seamless integration and optimal system functionality by closely collaborating with the frontend team during the supervision of the entire backend development for the project 
+
+    - Identified existing limitations, executed essential enhancements to boost performance and user experience 
+
+    - Employed MySQL as the database management system, ensuring efficient data storage and retrieval 
+
+2. Implementation of Machine Learning algorithms from scratch (Prof. Nipun Batra, IITGn)               
+
+    - Devised a recursive algorithm for decision trees from scratch, used entropy and Gini Index as splitting criteria - Github 
+
+    - Leveraged Bagging and Boosting algorithms to enhance Random Forest classifier and regressor-Github 
+
+    - Optimized Linear Regression using Gradient Descent, Singular Value Decomposition, and mathematical formulae-Github 
+
+    - Established a backend movie recommendation system utilizing crowd-sourced data with K Nearest Neighbours algorithm 
+
+    - Constructed an application using streamlit to showcase how bagging reduces variance for a model for regression/classification-Link 
+
+3. Coresets-based optimization of deep learning models (prof. Anirban Dasgupta, IITGN) 
+
+    - Created coresets using distinct methods and compared their performance(cost) by various models like k-means 
+
+    - Implemented private K-means to develop private coresets that enables differentially private clustering on real data 
+
+4. NGO Connect an Android project using Java (Prof. B.P.Vasgi, SCOE, Pune) 
+
+    - Developed Android application intended to use as interface between NGOs, Hostels/restaurants and people who want to serve for NGO. It included services like serve on weekend, food for nearby 
+
+    - Applied various software development methodologies, including agile, to successfully manage and deliver the project 
+
+    - Incorporated essential Firebase services, including Firebase Cloud Messaging, Firebase Authentication, Real-time Database, Firebase Storage, and Firebase Hosting, to enhance the NGO Connect Android app's functionality and user experience 
+
+    - Leveraged Firebase's push notification technology to enhance user engagement and communication in Android app development 
 
