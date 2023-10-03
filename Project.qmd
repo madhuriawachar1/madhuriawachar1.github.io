@@ -13,7 +13,7 @@ format: html
 
     - Employed MySQL as the database management system, ensuring efficient data storage and retrieval 
 
-2. Implementation of Machine Learning algorithms from scratch (Prof. Nipun Batra, IITGn)               
+2. Implementation of Machine Learning algorithms from scratch (Prof. Nipun Batra, IITGn)  .             
 
     - Devised a recursive algorithm for decision trees from scratch, used entropy and Gini Index as splitting criteria - Github 
 
