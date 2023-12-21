@@ -12,8 +12,8 @@ website:
         text: About
       - href: Project.qmd
         text: Project
-      - href: blogs.qmd
-        text: blogs
+      - href: blogs/index.qmd
+        text: Blogs
       - href: gallery.qmd
         text: gallery
       - href: files/CV.pdf

@@ -7,10 +7,21 @@
   },
   {
     "listing": "/blogs.html",
-    "items": []
+    "items": [
+      "/blogs/index.html",
+      "/blogs/blogsData/Reccomandation System.html",
+      "/blogs/blogsData/CUR_Decomposition.html"
+    ]
   },
   {
     "listing": "/blogs_madhu.html",
     "items": []
+  },
+  {
+    "listing": "/blogs/index.html",
+    "items": [
+      "/blogs/blogsData/Reccomandation System.html",
+      "/blogs/blogsData/CUR_Decomposition.html"
+    ]
   }
 ]
